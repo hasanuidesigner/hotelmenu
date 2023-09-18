@@ -1,0 +1,34 @@
+{
+  "hotelmenu": [
+    {
+      "id": 1,
+      "menuitemname": "Pizza",
+      "menuitemdesc": "Lorem ipsum",
+      "menuitemprice": "100"
+    },
+    {
+      "menuitemname": "Idly",
+      "menuitemprice": "15",
+      "menuitemdesc": "Lorem ipsum dolor sit amets",
+      "id": 2
+    },
+    {
+      "menuitemname": "Coke",
+      "menuitemdesc": "Lorem ipsum sit",
+      "menuitemprice": "55",
+      "id": 3
+    },
+    {
+      "menuitemname": "Coffee",
+      "menuitemdesc": "Unde omnis iste natus error sit",
+      "menuitemprice": "20",
+      "id": 4
+    },
+    {
+      "menuitemname": "Tea",
+      "menuitemdesc": "Excepteur sint occaecat cupidatat",
+      "menuitemprice": "34",
+      "id": 5
+    }
+  ]
+}
