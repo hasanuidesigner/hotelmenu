@@ -14,7 +14,7 @@ function App() {
   return (
     <>
        
-       <BrowserRouter basename='/hotelmenu'>
+       <BrowserRouter>
         <Navbar/>
       <Routes>         
         <Route path="/" element={<Landpage/>} />
