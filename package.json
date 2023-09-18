@@ -1,7 +1,7 @@
 {
   "name": "hotelmenus",
   "private": true,
-  "homepage":"https://hasanuidesigner.github.io/hotelmenu/",
+  "homepage":"https://hasanuidesigner.github.io/hotelmenu",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
