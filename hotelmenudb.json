@@ -29,6 +29,12 @@
       "menuitemdesc": "Excepteur sint occaecat cupidatat",
       "menuitemprice": "34",
       "id": 5
+    },
+    {
+      "menuitemname": "Dosai",
+      "menuitemdesc": "Loremm ipsm dosa",
+      "menuitemprice": "27",
+      "id": 6
     }
   ]
 }

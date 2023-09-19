@@ -14,15 +14,15 @@ function App() {
   return (
     <>
        
-       <BrowserRouter basename='/hotelmenu'>
+       <BrowserRouter basename='/'>
         <Navbar/>
       <Routes>         
         <Route path="/" element={<Landpage/>} />
-        <Route path="/menulist" element={<Menulist/>} />
-        <Route path="/managemenu" element={<Menumanage/>} />
-        <Route path="/menuadd" element={<Menuadd/>} />
-        <Route path="/menuupdate/:id" element={<Menuupdate/>} />
-        <Route path="/viewmenu/:id" element={<Viewmenuitem/>}/>
+        <Route path="menulist" element={<Menulist/>} />
+        <Route path="managemenu" element={<Menumanage/>} />
+        <Route path="menuadd" element={<Menuadd/>} />
+        <Route path="menuupdate/:id" element={<Menuupdate/>} />
+        <Route path="viewmenu/:id" element={<Viewmenuitem/>}/>
       </Routes>
      
     </BrowserRouter>
