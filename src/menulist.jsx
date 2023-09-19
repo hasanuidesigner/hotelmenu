@@ -24,7 +24,7 @@ export default function Menulist(){
         {
             menulist.filter((item)=>item.menuitemname.toLowerCase().includes(srchmenu)).map((item,key)=>(
                 <div key={item.id} className="menu-gallery-item">
-                  <div className="thumb-img"><img src={homeImg} alt="Food"/></div>
+                  {/* <div className="thumb-img"><img src={homeImg} alt="Food"/></div> */}
                   <div>{item.menuitemname}</div>
                   <div>{item.menuitemdesc}</div>
                   <div>{item.menuitemprice}</div>
