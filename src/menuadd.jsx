@@ -13,7 +13,7 @@ export default function Menuadd(){
     const additem =async () =>{
         await axios.post(apilink,menudetails);
         addref.current.focus();
-        window.location.href='/menulist';
+        window.location.href='menulist';
     }
     return<>
        <div className="content-wrap form-cover-out">

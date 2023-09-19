@@ -35,6 +35,12 @@
       "menuitemdesc": "Loremm ipsm dosa",
       "menuitemprice": "27",
       "id": 6
+    },
+    {
+      "menuitemname": "test",
+      "menuitemdesc": "test",
+      "menuitemprice": "40",
+      "id": 7
     }
   ]
 }
