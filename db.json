@@ -1,38 +1,46 @@
-[
-  {
-    "menuitemname": "Coke",
-    "menuitemdesc": "Lorem ipsum sit",
-    "menuitemprice": "55",
-    "id": 1
-  },
-  {
-    "menuitemname": "Coffee",
-    "menuitemdesc": "Unde omnis iste natus error sit",
-    "menuitemprice": "20",
-    "id": 2
-  },
-  {
-    "menuitemname": "Tea",
-    "menuitemdesc": "Excepteur sint occaecat cupidatat",
-    "menuitemprice": "34",
-    "id": 3
-  },
-  {
-    "menuitemname": "Dosai",
-    "menuitemdesc": "Loremm ipsm dosa",
-    "menuitemprice": "27",
-    "id": 4
-  },
-  {
-    "menuitemname": "Idiappam",
-    "menuitemdesc": "lorem",
-    "menuitemprice": "27",
-    "id": 5
-  },
-  {
-    "menuitemname": "Pizza",
-    "menuitemdesc": "Lorem ipsum",
-    "menuitemprice": "34",
-    "id": 6
-  }
-]
+{
+  "hotelmenu": [
+    {
+      "menuitemname": "Coke",
+      "menuitemdesc": "Lorem ipsum sit",
+      "menuitemprice": "55",
+      "id": 1
+    },
+    {
+      "menuitemname": "Coffee",
+      "menuitemdesc": "Unde omnis iste natus error sit",
+      "menuitemprice": "20",
+      "id": 2
+    },
+    {
+      "menuitemname": "Tea",
+      "menuitemdesc": "Excepteur sint occaecat cupidatat",
+      "menuitemprice": "34",
+      "id": 3
+    },
+    {
+      "menuitemname": "Dosai",
+      "menuitemdesc": "Loremm ipsm dosa",
+      "menuitemprice": "27",
+      "id": 4
+    },
+    {
+      "menuitemname": "Idiappam",
+      "menuitemdesc": "lorem",
+      "menuitemprice": "27",
+      "id": 5
+    },
+    {
+      "menuitemname": "Pizza",
+      "menuitemdesc": "Lorem ipsum",
+      "menuitemprice": "34",
+      "id": 6
+    },
+    {
+      "menuitemname": "test",
+      "menuitemdesc": "test",
+      "menuitemprice": "12",
+      "id": 7
+    }
+  ]
+}
