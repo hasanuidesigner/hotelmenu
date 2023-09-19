@@ -18,16 +18,16 @@ export default function Menumanage(){
         if (deleteconfirm)
         {
        await axios.delete(apilink+id);
-       navigate('managemenu');
+       navigate('/managemenu');
     }
     }
 
     const viewitem = (id) =>{
-      navigate('viewmenu/'+id);
+      navigate('/viewmenu/'+id);
     }
 
     const edititem = (id)=>{
-      navigate('menuupdate/'+id);
+      navigate('/menuupdate/'+id);
     }
 
     useEffect(()=>{
