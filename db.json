@@ -26,21 +26,15 @@
     },
     {
       "menuitemname": "Idiappam",
-      "menuitemdesc": "lorem",
+      "menuitemdesc": "lorem ipsum idip",
       "menuitemprice": "27",
       "id": 5
     },
     {
       "menuitemname": "Pizza",
-      "menuitemdesc": "Lorem ipsum",
-      "menuitemprice": "34",
+      "menuitemdesc": "Lorem ipsum sit",
+      "menuitemprice": "35",
       "id": 6
-    },
-    {
-      "menuitemname": "test",
-      "menuitemdesc": "test",
-      "menuitemprice": "12",
-      "id": 7
     }
   ]
 }

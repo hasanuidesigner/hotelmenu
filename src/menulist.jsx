@@ -10,7 +10,7 @@ export default function Menulist(){
 
     const getMenu = async ()=>{
       const menu =await axios.get(apilink);
-      setMenulist(menu.data.hotelmenu);
+      setMenulist(menu.data);
     }
 
     useEffect(()=>{

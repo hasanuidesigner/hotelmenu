@@ -34,5 +34,11 @@
     "menuitemdesc": "Lorem ipsum",
     "menuitemprice": "34",
     "id": 6
+  },
+  {
+    "menuitemname": "test",
+    "menuitemdesc": "test",
+    "menuitemprice": "12",
+    "id": 7
   }
 ]
