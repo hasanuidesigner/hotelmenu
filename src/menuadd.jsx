@@ -1,11 +1,13 @@
 import axios from "axios";
 import React, { useRef, useState } from "react";
+import { useNavigate } from "react-router-dom";
 import { apilink } from "./apiUrl";
 
 export default function Menuadd(){
 
     const [menudetails,SetMenuadd]=useState([]);
     const addref = useRef();
+    const navigate = useNavigate();
 
     const handlechange = (e) =>{
        SetMenuadd((prev)=>({...prev,[e.target.name]:e.target.value}));
@@ -13,7 +15,7 @@ export default function Menuadd(){
     const additem =async () =>{
         await axios.post(apilink,menudetails);
         addref.current.focus();
-        window.location.href='menulist';
+        navigate('menulist');
     }
     return<>
        <div className="content-wrap form-cover-out">

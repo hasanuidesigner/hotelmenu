@@ -41,6 +41,12 @@
       "menuitemdesc": "test",
       "menuitemprice": "40",
       "id": 7
+    },
+    {
+      "menuitemname": "test 2",
+      "menuitemdesc": "test 2",
+      "menuitemprice": "22",
+      "id": 8
     }
   ]
 }

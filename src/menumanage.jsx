@@ -1,12 +1,13 @@
 import React, { useEffect, useState } from "react";
 import { apilink } from "./apiUrl";
 import { EyeFill, PencilSquare, Trash2Fill } from "react-bootstrap-icons"
+import { useNavigate } from "react-router-dom"
 import axios from 'axios';
 
 export default function Menumanage(){
      
     const [menumanage,setMenumanage] = useState([]);
-
+    const navigate = useNavigate();
     const getMenu = async ()=>{
       const menu =await axios.get(apilink);
       setMenumanage(menu.data);
@@ -17,16 +18,16 @@ export default function Menumanage(){
         if (deleteconfirm)
         {
        await axios.delete(apilink+id);
-       window.location.href='managemenu';
+       navigate('managemenu');
     }
     }
 
     const viewitem = (id) =>{
-        window.location.href='viewmenu/'+id;
+      navigate('viewmenu/'+id);
     }
 
     const edititem = (id)=>{
-        window.location.href= 'menuupdate/'+id;
+      navigate('menuupdate/'+id);
     }
 
     useEffect(()=>{
