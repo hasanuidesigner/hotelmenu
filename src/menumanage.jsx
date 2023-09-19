@@ -19,6 +19,7 @@ export default function Menumanage(){
         {
        await axios.delete(apilink+id);
        navigate('/managemenu');
+       getMenu();
     }
     }
 

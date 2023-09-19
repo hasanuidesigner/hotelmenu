@@ -31,10 +31,10 @@
       "id": 6
     },
     {
-      "menuitemname": "test4",
-      "menuitemdesc": "test4",
-      "menuitemprice": "15",
-      "id": 7
+      "menuitemname": "test3",
+      "menuitemdesc": "lorem ipsm",
+      "menuitemprice": "12",
+      "id": 8
     }
   ]
 }
