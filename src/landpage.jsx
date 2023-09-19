@@ -8,8 +8,8 @@ export default function Landpage() {
   const [mnenulist, setMenulist] = useState([]);
 
   const getMenu = async () => {
-    const menu = await axios.get(apilink+'/1');
-    setMenulist(menu.data);
+    const menu = await axios.get(apilink);
+    setMenulist(menu.data.hotelmenu[0]);
   }
 
   useEffect(() => {
@@ -17,6 +17,7 @@ export default function Landpage() {
   }, []);
 
   return <> 
+  {JSON.stringify(mnenulist)}
     <div className="home-body-bg">
       <div className="home-content-wrap">
         <div className="home-cnt-rht-out">

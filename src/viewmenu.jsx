@@ -10,7 +10,7 @@ export default function Viewmenuitem() {
 
   const getMenu = async (id)=>{
     const menu =await axios.get(apilink+'/'+id);
-    setMenumanage(menu.data);    
+    setMenumanage(menu.data.hotelmenu);    
   }
 
   const pathdir = useLocation();

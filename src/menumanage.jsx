@@ -10,7 +10,7 @@ export default function Menumanage(){
     const navigate = useNavigate();
     const getMenu = async ()=>{
       const menu =await axios.get(apilink);
-      setMenumanage(menu.data);
+      setMenumanage(menu.data.hotelmenu);
     }
 
     const removeitem = async (id) =>{
