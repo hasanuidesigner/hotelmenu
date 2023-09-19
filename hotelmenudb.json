@@ -1,10 +1,6 @@
 {
   "hotelmenu": [
     {
-      "id": 1,
-      "menuitemprice": "40"
-    },
-    {
       "menuitemname": "Idly",
       "menuitemprice": "15",
       "menuitemdesc": "Lorem ipsum dolor sit amets",
@@ -33,6 +29,12 @@
       "menuitemdesc": "Loremm ipsm dosa",
       "menuitemprice": "27",
       "id": 6
+    },
+    {
+      "menuitemname": "test4",
+      "menuitemdesc": "test4",
+      "menuitemprice": "15",
+      "id": 7
     }
   ]
 }

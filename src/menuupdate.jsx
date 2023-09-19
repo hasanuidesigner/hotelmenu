@@ -1,15 +1,17 @@
 import axios from "axios";
 import { apilink } from "./apiUrl";
 import React, { useEffect, useState } from "react";
+import { useNavigate } from "react-router-dom"
 import { useLocation } from "react-router-dom";
 
 export default function Menuupdate(){
 
     const [menuitem,setMenuitem] = useState([]);
     const [menudetails,SetMenuadd]=useState([]);
+    const navigate = useNavigate();
     const updateitem = async (id)=>{
         await axios.put(apilink+id,menudetails); 
-        window.location.href='/managemenu';
+        navigate('/managemenu');
     }
     const handlechange = (e) =>{
         e.preventDefault();
