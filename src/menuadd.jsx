@@ -15,7 +15,7 @@ export default function Menuadd(){
     const additem =async () =>{
         await axios.post(apilink,menudetails);
         addref.current.focus();
-        navigate('menulist');
+        navigate('/menulist');
     }
     return<>
        <div className="content-wrap form-cover-out">

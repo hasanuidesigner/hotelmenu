@@ -2,9 +2,7 @@
   "hotelmenu": [
     {
       "id": 1,
-      "menuitemname": "Pizza",
-      "menuitemdesc": "Lorem ipsum",
-      "menuitemprice": "100"
+      "menuitemprice": "40"
     },
     {
       "menuitemname": "Idly",
@@ -35,24 +33,6 @@
       "menuitemdesc": "Loremm ipsm dosa",
       "menuitemprice": "27",
       "id": 6
-    },
-    {
-      "menuitemname": "test",
-      "menuitemdesc": "test",
-      "menuitemprice": "40",
-      "id": 7
-    },
-    {
-      "menuitemname": "test 2",
-      "menuitemdesc": "test 2",
-      "menuitemprice": "22",
-      "id": 8
-    },
-    {
-      "menuitemname": "test3",
-      "menuitemdesc": "test3",
-      "menuitemprice": "12",
-      "id": 9
     }
   ]
 }
