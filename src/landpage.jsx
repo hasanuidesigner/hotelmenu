@@ -29,7 +29,7 @@ export default function Landpage() {
                 <div className="home-page-title">WHAT WE CAN GIVE TO OUR GUESTS</div>
                 <div className="home-page-menu-head">{mnenulist.menuitemname}</div>
                 <div className="home-page-menu-desc">{mnenulist.menuitemdesc}</div>
-                <div className="home-page-more-btn"><Link to='/menulist' className="more-btn">View more menu</Link></div>
+                <div className="home-page-more-btn"><Link to='menulist' className="more-btn">View more menu</Link></div>
               </div>
             </div>           
           </div>

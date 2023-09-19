@@ -17,16 +17,16 @@ export default function Menumanage(){
         if (deleteconfirm)
         {
        await axios.delete(apilink+id);
-       window.location.href='hotelmenu/managemenu';
+       window.location.href='managemenu';
     }
     }
 
     const viewitem = (id) =>{
-        window.location.href='hotelmenu/viewmenu/'+id;
+        window.location.href='viewmenu/'+id;
     }
 
     const edititem = (id)=>{
-        window.location.href= 'hotelmenu/menuupdate/'+id;
+        window.location.href= 'menuupdate/'+id;
     }
 
     useEffect(()=>{
