@@ -1,7 +1,7 @@
 {
   "name": "hotelmenus",
   "private": true,
-  "homepage":"https://hasanuidesigner.github.io/hotelmenu/",
+  "homepage": "https://hasanuidesigner.github.io/hotelmenu/",
   "version": "0.0.0",
   "type": "module",
   "scripts": {
@@ -9,7 +9,8 @@
     "build": "vite build",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "server":"npx json-server --watch public/hotelmenudb.json --port=8001"
+    "deploy": "gh-pages -d build",
+    "server": "npx json-server --watch public/hotelmenudb.json --port=8001"
   },
   "dependencies": {
     "axios": "^1.5.0",
