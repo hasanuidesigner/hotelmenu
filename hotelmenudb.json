@@ -1,7 +1,7 @@
 {
   "hotelmenu": [
     {
-      "menuitemname": "Coke",
+      "menuitemname": "Cokes",
       "menuitemdesc": "Lorem ipsum sit",
       "menuitemprice": "55",
       "id": 1
@@ -35,6 +35,26 @@
       "menuitemdesc": "Lorem ipsum sit",
       "menuitemprice": "36",
       "id": 6
+    }
+  ],
+  "users": [
+    {
+      "firstname": "Mari",
+      "phone": "123456",
+      "email": "test@test.in",
+      "id": 1
+    },
+    {
+      "firstname": "David",
+      "phone": "98745",
+      "email": "test@test.in",
+      "id": 2
+    },
+    {
+      "firstname": "Anwar",
+      "phone": "54237",
+      "email": "test@test.in",
+      "id": 3
     }
   ]
 }
