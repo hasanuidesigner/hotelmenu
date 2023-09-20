@@ -10,7 +10,7 @@ export default function Menuupdate(){
     const [menudetails,SetMenuadd]=useState([]);
     const navigate = useNavigate();
     const updateitem = async (id)=>{
-        await axios.put(apilink+id,menudetails); 
+        await axios.put(apilink+'/'+id,menudetails); 
         navigate('/managemenu');
     }
     const handlechange = (e) =>{
@@ -18,7 +18,7 @@ export default function Menuupdate(){
         SetMenuadd(  {...menuitem,[e.target.name]:e.target.value}); 
      }
     const getitem = async (id)=>{
-      const edtitm =  await axios.get(apilink+id);
+      const edtitm =  await axios.get(apilink+'/'+id);
        setMenuitem(edtitm.data);
     }     
     const pathdir = useLocation();
@@ -28,7 +28,7 @@ export default function Menuupdate(){
         getitem(pathid);
     },[pathid]);
 
-    return<>
+    return<> 
     <div className="content-wrap form-cover-out">
         <h1 className="inner-page-head">Edit menu items</h1>
         <div className="form-wrap">
