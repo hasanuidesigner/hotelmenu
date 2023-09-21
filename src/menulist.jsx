@@ -30,8 +30,7 @@ export default function Menulist() {
           <div>Item name</div>
           <div>About item</div>
           <div>Price (in $)</div>
-        </div>
-        {console.log(menulist.filter((item) => item.menuitemname.toLowerCase().includes(srchmenu)).length)} 
+        </div> 
         {         
           (menulist.length > 0 && menulist.filter((item) => item.menuitemname.toLowerCase().includes(srchmenu)).length > 0) ?
             menulist.filter((item) => item.menuitemname.toLowerCase().includes(srchmenu)).map((item, key) => (

@@ -17,7 +17,7 @@ export default function Landpage() {
     getMenu();
   }, []);
 
-  return <> {console.log(mnenulist[0])}
+  return <>
     <div className="home-body-bg">
       <div className="home-content-wrap">
         <div className="home-cnt-rht-out">

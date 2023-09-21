@@ -12,7 +12,8 @@ export default function Menuadd(){
     const handlechange = (e) =>{
        SetMenuadd((prev)=>({...prev,[e.target.name]:e.target.value}));
     }
-    const additem =async () =>{
+    const additem =async (e) =>{
+        e.preventDefault();
         await axios.post(apilink,menudetails);
         addref.current.focus();
         navigate('/menulist');
@@ -21,7 +22,7 @@ export default function Menuadd(){
        <div className="content-wrap form-cover-out">
         <h1 className="inner-page-head">Add menu items</h1>
         <div className="form-wrap">
-        <form>
+        <form onSubmit={additem}>
         <div className="form-control-group">
             <label>Menu name:</label>
             <input className="form-conrol" type='text' required name='menuitemname' ref={addref} placeholder="Enter food name" onChange={handlechange} />
@@ -35,7 +36,7 @@ export default function Menuadd(){
             <input className="form-conrol" type='number' name='menuitemprice' required placeholder="Enter food price" onChange={handlechange} />
         </div>
         <div>
-            <button type="button" className="form-btn" onClick={additem}>Add menu</button>
+            <button type="submit" className="form-btn">Add menu</button>
         </div>
         </form>
         </div>

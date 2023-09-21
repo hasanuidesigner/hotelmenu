@@ -35,6 +35,12 @@
       "menuitemdesc": "Lorem ipsum sit",
       "menuitemprice": "35",
       "id": 6
+    },
+    {
+      "menuitemname": "Burger",
+      "menuitemdesc": "lorem",
+      "menuitemprice": "12",
+      "id": 7
     }
   ]
 }
