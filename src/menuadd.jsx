@@ -28,7 +28,7 @@ export default function Menuadd(){
         </div>
         <div className="form-control-group">
         <label>Menu Details:</label>
-            <textarea className="form-conrol" type='text' name='menuitemdesc' required placeholder="Enter food description" onChange={handlechange} />
+            <textarea className="form-conrol" type='text' name='menuitemdesc' maxLength="150" required placeholder="Enter food description" onChange={handlechange} />
         </div>
         <div className="form-control-group">
         <label>Menu price:</label>

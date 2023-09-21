@@ -28,7 +28,7 @@ export default function Menuupdate(){
         getitem(pathid);
     },[pathid]);
 
-    return<> 
+    return<>  
     <div className="content-wrap form-cover-out">
         <h1 className="inner-page-head">Edit menu items</h1>
         <div className="form-wrap">
@@ -42,7 +42,7 @@ export default function Menuupdate(){
         </div>
         <div className="form-control-group">
         <label>Menu Details:</label>            
-            <textarea className="form-conrol" type='text' name="menuitemdesc" defaultValue={menuitem.menuitemdesc} placeholder="Enter food description" onChange={(e)=>handlechange(e)} />
+            <textarea className="form-conrol" type='text' name="menuitemdesc" maxLength="150" defaultValue={menuitem.menuitemdesc} placeholder="Enter food description" onChange={(e)=>handlechange(e)} />
         </div>
         <div className="form-control-group">
         <label>Menu price:</label>

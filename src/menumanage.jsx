@@ -35,21 +35,23 @@ export default function Menumanage() {
     getMenu();
   }, [])
 
-  return <>
-    <div className="content-wrap form-cover-out tbl-list-wrap">
+  return <> 
+    <div className="content-wrap tbl-list-wrap">
       <h1 className="inner-page-head">Manage menu items</h1>
+      <div className="table-responsive">
       <table className="table table-striped table-bordered menu-table">
         <thead>
           <tr>
             <th>Menu Id</th>
             <th>Menu Name</th>
             <th>Menu Description</th>
-            <th>Menu Price (in Rs.)</th>
+            <th>Menu Price (in $)</th>
             <th colSpan={2}>Actions</th>
           </tr>
         </thead>
         <tbody>
           {
+            (menumanage.length > 0) ?
             menumanage.map((itm) =>
               <tr key={itm.id}>
                 <td>{itm.id}</td>
@@ -64,9 +66,11 @@ export default function Menumanage() {
 
                 </td>
               </tr>
-            )}
+            )  : <tr><td colSpan="5">No item found</td></tr>
+          }
         </tbody>
       </table>
+      </div>
     </div>
   </>
 }

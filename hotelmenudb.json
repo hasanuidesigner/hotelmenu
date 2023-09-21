@@ -2,43 +2,43 @@
   "hotelmenu": [
     {
       "menuitemname": "Cokes",
-      "menuitemdesc": "Lorem ipsum sit",
+      "menuitemdesc": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua",
       "menuitemprice": "55",
       "id": 1
     },
     {
       "menuitemname": "Coffee",
-      "menuitemdesc": "Unde omnis iste natus error sit",
+      "menuitemdesc": "Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "menuitemprice": "20",
       "id": 2
     },
     {
       "menuitemname": "Tea",
-      "menuitemdesc": "Excepteur sint occaecat cupidatat",
+      "menuitemdesc": "Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,",
       "menuitemprice": "34",
       "id": 3
     },
     {
       "id": 4,
       "menuitemprice": "27",
-      "menuitemdesc": "Loremm ipsm dosa",
+      "menuitemdesc": "Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore",
       "menuitemname": "Dosai"
     },
     {
       "menuitemname": "Idiappam",
-      "menuitemdesc": "lorem ipsum idip",
+      "menuitemdesc": "Quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia",
       "menuitemprice": "28",
       "id": 5
     },
     {
       "menuitemname": "Pizza",
-      "menuitemdesc": "Lorem ipsum sit",
+      "menuitemdesc": "Quis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas n",
       "menuitemprice": "36",
       "id": 6
     },
     {
-      "menuitemname": "test",
-      "menuitemdesc": "test",
+      "menuitemname": "Spring role",
+      "menuitemdesc": "Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem",
       "menuitemprice": "28",
       "id": 7
     }
