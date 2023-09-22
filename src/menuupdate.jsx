@@ -7,7 +7,7 @@ import { useLocation } from "react-router-dom";
 export default function Menuupdate(){
 
     const [menuitem,setMenuitem] = useState([]);
-    const [menudetails,SetMenuadd]=useState({});
+    const [menudetails,SetMenuadd]=useState([]);
     const navigate = useNavigate();
     const updateitem = async (id)=>{
         await axios.put(apilink+'/'+id,menudetails); 
@@ -15,7 +15,7 @@ export default function Menuupdate(){
     }
     const handlechange = (e) =>{
         e.preventDefault();
-        SetMenuadd(  {...menuitem,[e.target.name]:e.target.value});
+        SetMenuadd({...menudetails,[e.target.name]:e.target.value});
      }
     const getitem = async (id)=>{
       const edtitm =  await axios.get(apilink+'/'+id);
@@ -30,6 +30,8 @@ export default function Menuupdate(){
     },[pathid]);
 
     return<>  
+    {JSON.stringify(menuitem)} <br/>
+    {JSON.stringify(menudetails)}
     <div className="content-wrap form-cover-out">
         <h1 className="inner-page-head">Edit menu items</h1>
         <div className="form-wrap">
