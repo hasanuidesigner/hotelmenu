@@ -29,9 +29,7 @@ export default function Menuupdate(){
         getitem(pathid);
     },[pathid]);
 
-    return<>  
-    {JSON.stringify(menuitem)} <br/>
-    {JSON.stringify(menudetails)}
+    return<>   
     <div className="content-wrap form-cover-out">
         <h1 className="inner-page-head">Edit menu items</h1>
         <div className="form-wrap">
