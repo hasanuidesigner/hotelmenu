@@ -29,7 +29,7 @@ body {
   border-bottom: #50412c solid 1px;
 }
 
-.navbar-brand a:link,.navbar-wrap a:visited {
+.navbar-brand a,.navbar-brand a:link,.navbar-wrap a:visited {
   color: #f3e0ca;
   text-decoration: none; 
 }
@@ -309,6 +309,10 @@ label.lbl-shw {
 }
 textarea{
   resize: none;
+}
+.spinner-border{
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 @media screen and (max-width:1050px) {
